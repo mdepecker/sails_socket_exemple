@@ -1,0 +1,9 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <ion-list>
+      <ion-item ng-repeat="lock in locks">
+        lock n° {{lock.id}} with {{lock.logs.length}} logs
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
